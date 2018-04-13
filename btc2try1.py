@@ -10,7 +10,7 @@ def sending(para1):
     mail=smtplib.SMTP('smtp.gmail.com',587)
     mail.ehlo()
     mail.starttls()
-    mail.login('benjaminnitrono2@gmail.com','jbgsn!2716888')
+    mail.login('benjaminnitrono2@gmail.com','*******')
     mail.sendmail('233@233.com','themiaoshuyang@163.com',para1)
     mail.sendmail('233@233.com', '2440431244@qq.com', para1)
     mail.close()
